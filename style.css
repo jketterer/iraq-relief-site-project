@@ -1,0 +1,8 @@
+.navbar {
+    border-color: brown;
+    border-width: 3px;
+}
+
+#nav-links {
+    float: right;
+}
