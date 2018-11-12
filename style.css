@@ -1,8 +1,12 @@
 .navbar {
-    border-color: brown;
-    border-width: 3px;
+    
 }
 
-#nav-links {
-    float: right;
+.jumbotron {
+    justify-content: center;
+}
+
+body {
+    /* For the fixed navbar */
+    padding-top: 4rem; 
 }
