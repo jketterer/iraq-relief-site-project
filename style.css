@@ -1,12 +1,22 @@
-.navbar {
-    
+header {
+    height: 4rem;
+    background-color: aqua;
 }
 
-.jumbotron {
-    justify-content: center;
+#jumbotron-content {
+    padding: 6rem 2rem;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://cdn.japantimes.2xx.jp/wp-content/uploads/2015/04/f-quakeaid-a-20150501.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
 }
 
-body {
-    /* For the fixed navbar */
-    padding-top: 4rem; 
+#jumbotron-content h1 {
+    font-size: 4rem;
+    font-style: bold;
+}
+
+.col-lg {
+    text-align: center;
 }
