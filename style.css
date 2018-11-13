@@ -1,10 +1,26 @@
-header {
-    height: 4rem;
-    background-color: aqua;
+.navbar {
+    height: 6rem;
+    background-color: white;
+}
+
+.navbar a {
+    color: black;
+    font-weight: 600;
+    font-size: 1.15rem;
+}
+
+.navbar a:hover {
+    color: #dc3545;
+    text-decoration: underline;
+    text-decoration-style: 
+}
+
+.nav-item:active a {
+    text-decoration: underline;
 }
 
 #jumbotron-content {
-    padding: 6rem 2rem;
+    padding: 14rem 2rem;
     background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://cdn.japantimes.2xx.jp/wp-content/uploads/2015/04/f-quakeaid-a-20150501.jpg');
     background-size: cover;
     background-position: center;
@@ -17,6 +33,19 @@ header {
     font-style: bold;
 }
 
-.col-lg {
+.card {
+    text-align: center;
+    justify-content: center;
+}
+
+.card-body {
+    background-color: #EEEEEE;
+}
+
+footer {
+    background-color: #dc3545;
+    height: 4rem;
+    margin-top: 3rem;
+    color: lightgray;
     text-align: center;
 }
