@@ -1,0 +1,19 @@
+{
+  "name": "iraq-relief",
+  "version": "1.0.0",
+  "description": "Simple website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jketterer/iraq-relief-site-project.git"
+  },
+  "author": "Jeremy Ketterer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jketterer/iraq-relief-site-project/issues"
+  },
+  "homepage": "https://github.com/jketterer/iraq-relief-site-project#readme"
+}

@@ -7,15 +7,6 @@
     color: white;
 }
 
-#jumbotron-content h1 {
-    font-size: 4rem;
-    font-style: bold;
-}
-
-.card-body {
-    background-color: #EEEEEE;
-}
-
 footer {
     background-color: #dc3545;
     height: 4rem;
