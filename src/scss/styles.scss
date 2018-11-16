@@ -1,3 +1,11 @@
+// Variable Overrides
+
+$primary: #dc3545;
+
+$theme-colors: (
+  "primary": $primary
+);
+
 #jumbotron-content {
     padding: 10rem 2rem;
     background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://cdn.japantimes.2xx.jp/wp-content/uploads/2015/04/f-quakeaid-a-20150501.jpg');
@@ -8,9 +16,12 @@
 }
 
 footer {
-    background-color: #dc3545;
+    background: $primary;
     height: 4rem;
     margin-top: 3rem;
     color: lightgray;
     text-align: center;
 }
+
+// Bootstrap Sass Imports (needs to be last)
+@import "node_modules/bootstrap/scss/bootstrap";
